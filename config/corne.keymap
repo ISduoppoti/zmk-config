@@ -44,7 +44,7 @@
                           LED_COLOR_ID_BLUE>;
   };
 };
-RGB_MATRIX_CUSTOM(255, 0, 0)
+
 
 / {
         keymap {
