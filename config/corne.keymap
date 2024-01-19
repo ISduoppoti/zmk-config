@@ -39,11 +39,12 @@
     chain-length = <6>; /* number of LEDs */
     spi-one-frame = <0x70>;
     spi-zero-frame = <0x40>;
-    color-mapping = <255
-                          255
-                          255>;
+    color-mapping = <LED_COLOR_ID_GREEN
+                          LED_COLOR_ID_RED
+                          LED_COLOR_ID_BLUE>;
   };
 };
+RGB_MATRIX_CUSTOM(255, 0, 0)
 
 / {
         keymap {
