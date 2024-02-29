@@ -35,7 +35,7 @@
 //                    | GUI | n   | SPC |   | ENT | n   | prtsc |
                         bindings = <
    &kp ESC     &kp F1      &kp F2   &trans    &trans   &trans         &trans   &trans   &trans    &trans    &trans  &kp BSPC
-   &kp LSHFT   &kp TILDE2  &trans   &trans    &trans   &trans         &kp LEFT &kp UP   &kp DOWN  &kp RIGHT &trans  &trans
+   &kp LSHFT   &kp TILDE  &trans   &trans    &trans   &trans         &kp LEFT &kp UP   &kp DOWN  &kp RIGHT &trans  &trans
    &kp LCTRL   &trans      &trans   &mkp MB1  &mkp MB2 &trans         &trans   &trans   &trans    &trans    &trans  &kp DEL
                                  &kp LGUI  &trans   &kp SPACE      &kp RET  &trans   &kp PSCRN
                         >;
