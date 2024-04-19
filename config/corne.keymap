@@ -34,8 +34,8 @@
 // | CTRL | n   | n   |mousL|mousR| n   |   | n   | n   | n   | n   | n   | BKSP |
 //                    | GUI | n   | SPC |   | ENT | n   | prtsc |
                         bindings = <
-   &kp ESC     &kp F1     &kp F2  &kp F3    &kt LALT &trans         &trans   &trans   &trans    &trans    &trans  &kp BSPC
-   &kp LSHFT   &kp TILDE  &trans  &trans    &kp M   &kp CAPS         &kp LEFT &kp UP   &kp DOWN  &kp RIGHT &trans  &trans
+   &kp ESC   &kp F1    &kp F2  &kp F3    &kt LALT   &trans         &trans   &trans   &trans    &trans    &trans  &kp BSPC
+   &kp LSHFT  &kp TILDE  &trans  &trans   &kp M   &kp CAPS         &kp LEFT &kp UP   &kp DOWN  &kp RIGHT &trans  &trans
    &kp LCTRL   &trans     &trans  &mkp MB1  &mkp MB2 &trans         &trans   &trans   &trans    &trans    &trans  &kp DEL
                                  &kp LGUI  &trans   &kp SPACE      &kp RET  &trans   &kp PSCRN
                         >;
