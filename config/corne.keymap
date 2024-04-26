@@ -28,12 +28,12 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC | f1  | f2  | f3  | lalt| n   |   | n   | n   | n   | n   | n   | DEL  |
+// |  ESC | f1  | f2  | f3  | ShiftLAlt | lalt|   | n   | n   | n   | n   | n   | DEL  |
 // | SHFT |  ~  | n   | n   |  M  | CAPS|   | LFT | UP |  DWN | RGT | n   | n    |
 // | CTRL | n   | n   |mousL|mousR| n   |   | n   | n   | n   | n   | n   | BKSP |
 //                    | GUI | n   | SPC |   | ENT | n   | prtsc |
                         bindings = <
-   &kp ESC     &kp F1      &kp F2   &kp F3    &kt LALT   &trans         &trans     &trans   &trans     &trans      &trans   &kp BSPC
+   &kp ESC     &kp F1      &kp F2   &kp F3    &&kp LS(LALT)   &kt LALT         &trans     &trans   &trans     &trans      &trans   &kp BSPC
    &kp LSHFT   &kp TILDE   &trans   &trans    &kp M      &kp CAPS       &kp LEFT   &kp UP   &kp DOWN   &kp RIGHT   &trans   &trans
    &kp LCTRL   &trans      &trans   &mkp MB1  &mkp MB2   &trans         &trans     &trans   &trans     &trans      &trans   &kp DEL
                                  &kp LGUI  &trans   &kp SPACE      &kp RET  &trans   &kp PSCRN
