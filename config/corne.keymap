@@ -29,13 +29,13 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  ESC | f1  | f2  | f3  | CtrlRAlt | lalt|   | n   | n   | n   | n   | n   | DEL  |
-// | SHFT |  n  | n   | n   |  M  | CAPS|   | LFT | UP |  DWN | RGT | n   | n    |
-// | CTRL | n   | n   |mousL|mousR| n   |   | n   | n   | n   | n   | n   | BKSP |
+// | SHFT |  4  | n   | n   |  M  | CAPS|   | LFT | UP |  DWN | RGT | n   | n    |
+// | CTRL |  1  | n   |  2  |mousL|mousR|   | n   | n   | n   | n   | n   | BKSP |
 //                    | GUI | n   | SPC |   | ENT | n   | prtsc |
                         bindings = <
-   &kp ESC     &kp F1      &kp F2   &kp F3    &kp LC(LALT)   &kt LALT         &trans     &trans   &trans     &trans      &trans   &kp BSPC
-   &kp LSHFT   &trans   &trans   &trans    &kp M      &kp CAPS       &kp LEFT   &kp UP   &kp DOWN   &kp RIGHT   &trans   &trans
-   &kp LCTRL   &trans      &trans   &mkp MB1  &mkp MB2   &trans         &trans     &trans   &trans     &trans      &trans   &kp DEL
+   &kp ESC     &kp F1  &kp F2   &kp F3    &kp LC(LALT)   &kt LALT         &trans     &trans   &trans     &trans      &trans   &kp BSPC
+   &kp LSHFT   &kp N4  &trans   &trans    &kp M      &kp CAPS       &kp LEFT   &kp UP   &kp DOWN   &kp RIGHT   &trans   &trans
+   &kp LCTRL   &kp N1  &trans   &kp N2  &mkp MB1   &mkp MB2         &trans     &trans   &trans     &trans      &trans   &kp DEL
                                  &kp LGUI  &trans   &kp SPACE      &kp RET  &trans   &kp PSCRN
                         >;
                 };
