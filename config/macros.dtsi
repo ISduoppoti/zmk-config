@@ -4,98 +4,56 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
-<&macro_tap &kp N0 &kp N0 &kp N0 &kp N0 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N1 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N2 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N3 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N4 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N5 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N6 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N7 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N8 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N9 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N0 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N1 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N2 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N3 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N4 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N5 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N6 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N7 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N8 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N9 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N2 &kp N0 &kp RET
-&kp LC(A) &kp BSPC
->;
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N0 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N1 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N2 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N3 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N4 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N5 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N6 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N7 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N8 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N9 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N1 &kp N0 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>;
         };
 
         brfc_r: brfc_r {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-<&macro_tap &kp N0 &kp N0 &kp N0 &kp N0 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N1 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N2 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N3 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N4 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N5 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N6 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N7 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N8 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N0 &kp N9 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N0 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N1 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N2 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N3 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N4 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N5 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N6 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N7 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N8 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N1 &kp N9 &kp RET
-&kp LC(A) &kp BSPC
-&kp N0 &kp N0 &kp N2 &kp N0 &kp RET
-&kp LC(A) &kp BSPC
->;
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N0 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N1 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N2 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N3 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N4 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N5 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N6 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N7 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N8 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N0 &kp N9 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>,
+<&macro_tap &kp N0 &kp N0 &kp N1 &kp N0 &kp RET>,
+<&macro_tap &kp LC(A) &kp BSPC>;
         };
     };
 };
