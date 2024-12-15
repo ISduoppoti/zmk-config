@@ -3,7 +3,7 @@
         brfc_l: brfc_l {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <500>;
             bindings = 
 <&macro_tap &kp N0 &kp N0 &kp N0 &kp N0 &kp RET>,
 <&macro_tap &kp LC(A) &kp BSPC>,
@@ -32,7 +32,7 @@
         brfc_r: brfc_r {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
+            wait-ms = <100>;
             bindings =
 <&macro_tap &kp N0 &kp N0 &kp N0 &kp N0 &kp RET>,
 <&macro_tap &kp LC(A) &kp BSPC>,
