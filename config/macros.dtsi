@@ -1,11 +1,13 @@
 / {
     macros {
         m_c: m_c {
+            compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp BSPC>;  // Ctrl+A, then Backspace
         };
 
         brfc_l: brfc_l {
+            compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
 <&kp N0 &kp N0 &kp N0 &kp N0 &kp RET
@@ -3564,8 +3566,9 @@
         };
 
         brfc_r: brfc_r {
-          #binding-cells = <0>;
-          bindings =
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
 <&kp N5 &kp N0 &kp N0 &kp N0 &kp RET
 &m_c
 &kp N5 &kp N0 &kp N0 &kp N1 &kp RET
