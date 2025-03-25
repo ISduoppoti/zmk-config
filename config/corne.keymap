@@ -48,7 +48,7 @@
 // | CTRL |  7  |  8  |  9  |  n  | n   |   |  +  |  {  |  }  | "|" | BKSP |
 //                    | GUI |  n  | SPC |   | ENT |  n  | btClr |
                         bindings = <
-   &kp  TAB   &kp N1  &kp N2  &kp N3  &trans   &TILDE      &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR &kp RPAR &kp BSPC
+   &kp  TAB   &kp N1  &kp N2  &kp N3  &trans   &kp TILDE      &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR &kp RPAR &kp BSPC
    &kp LSHFT  &kp N4  &kp N5  &kp N6  &kp N0   &trans      &kp MINUS  &kp EQUAL  &kp LBKT &kp RBKT &kp BSLH &kp GRAVE
    &kp LCTRL &kp N7  &kp N8  &kp N9  &trans   &trans      &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC &kp PIPE &kp DEL
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &bt BT_CLR
