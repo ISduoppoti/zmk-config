@@ -1,15 +1,15 @@
 / {
     macros {
-        /* Unique node name: you’ll use this in keymap.config */
         equals_macro: equals_macro {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;      /* no extra args */
-            label = "EQUALS";          /* shows up in diag layer */
-            output = <>
+            #binding-cells = <0>;     /* no extra args */
+            label = "EQUALS";         /* shows up in diag layer */
+            output = 
                 "@Override\n"
                 "public boolean equals(Object obj) {\n"
                 "    if (this == obj) return true;\n"
-                "    if (obj == NULL || getClass() != obj.getClass()) return false;\n\n"
+                "    if (obj == null || getClass() != obj.getClass()) return false;\n"
+                "\n"
                 "    Stop stop = (Stop) obj;\n"
                 "    return this.zone == stop.zone && this.name.equals(stop.name);\n"
                 "}\n";
