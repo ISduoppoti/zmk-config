@@ -4,14 +4,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;  /* no args */
             label = "EQUALS";
-            output = "@Override\n"
-                     "public boolean equals(Object obj) {\n"
-                     "    if (this == obj) return true;\n"
-                     "    if (obj == null || getClass() != obj.getClass()) return false;\n"
-                     "\n"
-                     "    Stop stop = (Stop) obj;\n"
-                     "    return this.zone == stop.zone && this.name.equals(stop.name);\n"
-                     "}\n";
+            output = "@Override\npublic boolean equals(Object obj) {\n    if (this == obj) return true;\n    if (obj == null || getClass() != obj.getClass()) return false;\n\n    Stop stop = (Stop) obj;\n    return this.zone == stop.zone && this.name.equals(stop.name);\n}\n";
         };
     };
 };
