@@ -3,271 +3,248 @@
         equals_macro: equals_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <20>;  /* adjust typing speed */
+            wait-ms = <20>;
 
             bindings = < &macro_tap
-                &kp LSHIFT  /* '@' */
-                &kp 2  /* '@' */
-                &kp LSHIFT  /* 'O' */
-                &kp O  /* 'O' */
-                &kp V  /* 'v' */
-                &kp E  /* 'e' */
-                &kp R  /* 'r' */
-                &kp R  /* 'r' */
-                &kp I  /* 'i' */
-                &kp D  /* 'd' */
-                &kp E  /* 'e' */
-                &kp ENTER  /* '
-' */
-                &kp P  /* 'p' */
-                &kp U  /* 'u' */
-                &kp B  /* 'b' */
-                &kp L  /* 'l' */
-                &kp I  /* 'i' */
-                &kp C  /* 'c' */
-                &kp SPACE  /* ' ' */
-                &kp B  /* 'b' */
-                &kp O  /* 'o' */
-                &kp O  /* 'o' */
-                &kp L  /* 'l' */
-                &kp E  /* 'e' */
-                &kp A  /* 'a' */
-                &kp N  /* 'n' */
-                &kp SPACE  /* ' ' */
-                &kp E  /* 'e' */
-                &kp Q  /* 'q' */
-                &kp U  /* 'u' */
-                &kp A  /* 'a' */
-                &kp L  /* 'l' */
-                &kp S  /* 's' */
-                &kp LEFT_PAREN  /* '(' */
-                &kp LSHIFT  /* 'O' */
-                &kp O  /* 'O' */
-                &kp B  /* 'b' */
-                &kp J  /* 'j' */
-                &kp E  /* 'e' */
-                &kp C  /* 'c' */
-                &kp T  /* 't' */
-                &kp SPACE  /* ' ' */
-                &kp O  /* 'o' */
-                &kp B  /* 'b' */
-                &kp J  /* 'j' */
-                &kp RIGHT_PAREN  /* ')' */
-                &kp SPACE  /* ' ' */
-                &kp LEFT_BRACE  /* '{' */
-                &kp ENTER  /* '
-' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp I  /* 'i' */
-                &kp F  /* 'f' */
-                &kp SPACE  /* ' ' */
-                &kp LEFT_PAREN  /* '(' */
-                &kp T  /* 't' */
-                &kp H  /* 'h' */
-                &kp I  /* 'i' */
-                &kp S  /* 's' */
-                &kp SPACE  /* ' ' */
-                &kp EQUAL  /* '=' */
-                &kp EQUAL  /* '=' */
-                &kp SPACE  /* ' ' */
-                &kp O  /* 'o' */
-                &kp B  /* 'b' */
-                &kp J  /* 'j' */
-                &kp RIGHT_PAREN  /* ')' */
-                &kp SPACE  /* ' ' */
-                &kp R  /* 'r' */
-                &kp E  /* 'e' */
-                &kp T  /* 't' */
-                &kp U  /* 'u' */
-                &kp R  /* 'r' */
-                &kp N  /* 'n' */
-                &kp SPACE  /* ' ' */
-                &kp T  /* 't' */
-                &kp R  /* 'r' */
-                &kp U  /* 'u' */
-                &kp E  /* 'e' */
-                &kp SEMICOLON  /* ';' */
-                &kp ENTER  /* '
-' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp I  /* 'i' */
-                &kp F  /* 'f' */
-                &kp SPACE  /* ' ' */
-                &kp LEFT_PAREN  /* '(' */
-                &kp O  /* 'o' */
-                &kp B  /* 'b' */
-                &kp J  /* 'j' */
-                &kp SPACE  /* ' ' */
-                &kp EQUAL  /* '=' */
-                &kp EQUAL  /* '=' */
-                &kp SPACE  /* ' ' */
-                &kp N  /* 'n' */
-                &kp U  /* 'u' */
-                &kp L  /* 'l' */
-                &kp L  /* 'l' */
-                &kp SPACE  /* ' ' */
-                &kp LSHIFT  /* '|' */
-                &kp BACKSLASH  /* '|' */
-                &kp LSHIFT  /* '|' */
-                &kp BACKSLASH  /* '|' */
-                &kp SPACE  /* ' ' */
-                &kp G  /* 'g' */
-                &kp E  /* 'e' */
-                &kp T  /* 't' */
-                &kp LSHIFT  /* 'C' */
-                &kp C  /* 'C' */
-                &kp L  /* 'l' */
-                &kp A  /* 'a' */
-                &kp S  /* 's' */
-                &kp S  /* 's' */
-                &kp LEFT_PAREN  /* '(' */
-                &kp RIGHT_PAREN  /* ')' */
-                &kp SPACE  /* ' ' */
-                &kp LSHIFT  /* '!' */
-                &kp 1  /* '!' */
-                &kp EQUAL  /* '=' */
-                &kp SPACE  /* ' ' */
-                &kp O  /* 'o' */
-                &kp B  /* 'b' */
-                &kp J  /* 'j' */
-                &kp DOT  /* '.' */
-                &kp G  /* 'g' */
-                &kp E  /* 'e' */
-                &kp T  /* 't' */
-                &kp LSHIFT  /* 'C' */
-                &kp C  /* 'C' */
-                &kp L  /* 'l' */
-                &kp A  /* 'a' */
-                &kp S  /* 's' */
-                &kp S  /* 's' */
-                &kp LEFT_PAREN  /* '(' */
-                &kp RIGHT_PAREN  /* ')' */
-                &kp RIGHT_PAREN  /* ')' */
-                &kp SPACE  /* ' ' */
-                &kp R  /* 'r' */
-                &kp E  /* 'e' */
-                &kp T  /* 't' */
-                &kp U  /* 'u' */
-                &kp R  /* 'r' */
-                &kp N  /* 'n' */
-                &kp SPACE  /* ' ' */
-                &kp F  /* 'f' */
-                &kp A  /* 'a' */
-                &kp L  /* 'l' */
-                &kp S  /* 's' */
-                &kp E  /* 'e' */
-                &kp SEMICOLON  /* ';' */
-                &kp ENTER  /* '
-' */
-                &kp ENTER  /* '
-' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp LSHIFT  /* 'S' */
-                &kp S  /* 'S' */
-                &kp T  /* 't' */
-                &kp O  /* 'o' */
-                &kp P  /* 'p' */
-                &kp SPACE  /* ' ' */
-                &kp S  /* 's' */
-                &kp T  /* 't' */
-                &kp O  /* 'o' */
-                &kp P  /* 'p' */
-                &kp SPACE  /* ' ' */
-                &kp EQUAL  /* '=' */
-                &kp SPACE  /* ' ' */
-                &kp LEFT_PAREN  /* '(' */
-                &kp LSHIFT  /* 'S' */
-                &kp S  /* 'S' */
-                &kp T  /* 't' */
-                &kp O  /* 'o' */
-                &kp P  /* 'p' */
-                &kp RIGHT_PAREN  /* ')' */
-                &kp SPACE  /* ' ' */
-                &kp O  /* 'o' */
-                &kp B  /* 'b' */
-                &kp J  /* 'j' */
-                &kp SEMICOLON  /* ';' */
-                &kp ENTER  /* '
-' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp SPACE  /* ' ' */
-                &kp R  /* 'r' */
-                &kp E  /* 'e' */
-                &kp T  /* 't' */
-                &kp U  /* 'u' */
-                &kp R  /* 'r' */
-                &kp N  /* 'n' */
-                &kp SPACE  /* ' ' */
-                &kp T  /* 't' */
-                &kp H  /* 'h' */
-                &kp I  /* 'i' */
-                &kp S  /* 's' */
-                &kp DOT  /* '.' */
-                &kp Z  /* 'z' */
-                &kp O  /* 'o' */
-                &kp N  /* 'n' */
-                &kp E  /* 'e' */
-                &kp SPACE  /* ' ' */
-                &kp EQUAL  /* '=' */
-                &kp EQUAL  /* '=' */
-                &kp SPACE  /* ' ' */
-                &kp S  /* 's' */
-                &kp T  /* 't' */
-                &kp O  /* 'o' */
-                &kp P  /* 'p' */
-                &kp DOT  /* '.' */
-                &kp Z  /* 'z' */
-                &kp O  /* 'o' */
-                &kp N  /* 'n' */
-                &kp E  /* 'e' */
-                &kp SPACE  /* ' ' */
-                &kp AMPERSAND  /* '&' */
-                &kp AMPERSAND  /* '&' */
-                &kp SPACE  /* ' ' */
-                &kp T  /* 't' */
-                &kp H  /* 'h' */
-                &kp I  /* 'i' */
-                &kp S  /* 's' */
-                &kp DOT  /* '.' */
-                &kp N  /* 'n' */
-                &kp A  /* 'a' */
-                &kp M  /* 'm' */
-                &kp E  /* 'e' */
-                &kp DOT  /* '.' */
-                &kp E  /* 'e' */
-                &kp Q  /* 'q' */
-                &kp U  /* 'u' */
-                &kp A  /* 'a' */
-                &kp L  /* 'l' */
-                &kp S  /* 's' */
-                &kp LEFT_PAREN  /* '(' */
-                &kp S  /* 's' */
-                &kp T  /* 't' */
-                &kp O  /* 'o' */
-                &kp P  /* 'p' */
-                &kp DOT  /* '.' */
-                &kp N  /* 'n' */
-                &kp A  /* 'a' */
-                &kp M  /* 'm' */
-                &kp E  /* 'e' */
-                &kp RIGHT_PAREN  /* ')' */
-                &kp SEMICOLON  /* ';' */
-                &kp ENTER  /* '
-' */
-                &kp RIGHT_BRACE  /* '}' */
-                &kp ENTER  /* '
-' */
+                &kp AT_SIGN
+                &kp O
+                &kp V
+                &kp E
+                &kp R
+                &kp R
+                &kp I
+                &kp D
+                &kp E
+                &kp ENTER
+                &kp P
+                &kp U
+                &kp B
+                &kp L
+                &kp I
+                &kp C
+                &kp SPACE
+                &kp B
+                &kp O
+                &kp O
+                &kp L
+                &kp E
+                &kp A
+                &kp N
+                &kp SPACE
+                &kp E
+                &kp Q
+                &kp U
+                &kp A
+                &kp L
+                &kp S
+                &kp LEFT_PARENTHESIS
+                &kp O
+                &kp B
+                &kp J
+                &kp E
+                &kp C
+                &kp T
+                &kp SPACE
+                &kp O
+                &kp B
+                &kp J
+                &kp RIGHT_PARENTHESIS
+                &kp SPACE
+                &kp LEFT_BRACE
+                &kp ENTER
+                &kp SPACE
+                &kp SPACE
+                &kp SPACE
+                &kp SPACE
+                &kp I
+                &kp F
+                &kp SPACE
+                &kp LEFT_PARENTHESIS
+                &kp T
+                &kp H
+                &kp I
+                &kp S
+                &kp SPACE
+                &kp EQUAL
+                &kp EQUAL
+                &kp SPACE
+                &kp O
+                &kp B
+                &kp J
+                &kp RIGHT_PARENTHESIS
+                &kp SPACE
+                &kp R
+                &kp E
+                &kp T
+                &kp U
+                &kp R
+                &kp N
+                &kp SPACE
+                &kp T
+                &kp R
+                &kp U
+                &kp E
+                &kp SEMICOLON
+                &kp ENTER
+                &kp SPACE
+                &kp SPACE
+                &kp SPACE
+                &kp SPACE
+                &kp I
+                &kp F
+                &kp SPACE
+                &kp LEFT_PARENTHESIS
+                &kp O
+                &kp B
+                &kp J
+                &kp SPACE
+                &kp EQUAL
+                &kp EQUAL
+                &kp SPACE
+                &kp N
+                &kp U
+                &kp L
+                &kp L
+                &kp SPACE
+                &kp SPACE
+                &kp G
+                &kp E
+                &kp T
+                &kp C
+                &kp L
+                &kp A
+                &kp S
+                &kp S
+                &kp LEFT_PARENTHESIS
+                &kp RIGHT_PARENTHESIS
+                &kp SPACE
+                &kp EQUAL
+                &kp SPACE
+                &kp O
+                &kp B
+                &kp J
+                &kp PERIOD
+                &kp G
+                &kp E
+                &kp T
+                &kp C
+                &kp L
+                &kp A
+                &kp S
+                &kp S
+                &kp LEFT_PARENTHESIS
+                &kp RIGHT_PARENTHESIS
+                &kp RIGHT_PARENTHESIS
+                &kp SPACE
+                &kp R
+                &kp E
+                &kp T
+                &kp U
+                &kp R
+                &kp N
+                &kp SPACE
+                &kp F
+                &kp A
+                &kp L
+                &kp S
+                &kp E
+                &kp SEMICOLON
+                &kp ENTER
+                &kp ENTER
+                &kp SPACE
+                &kp SPACE
+                &kp SPACE
+                &kp SPACE
+                &kp S
+                &kp T
+                &kp O
+                &kp P
+                &kp SPACE
+                &kp S
+                &kp T
+                &kp O
+                &kp P
+                &kp SPACE
+                &kp EQUAL
+                &kp SPACE
+                &kp LEFT_PARENTHESIS
+                &kp S
+                &kp T
+                &kp O
+                &kp P
+                &kp RIGHT_PARENTHESIS
+                &kp SPACE
+                &kp O
+                &kp B
+                &kp J
+                &kp SEMICOLON
+                &kp ENTER
+                &kp SPACE
+                &kp SPACE
+                &kp SPACE
+                &kp SPACE
+                &kp R
+                &kp E
+                &kp T
+                &kp U
+                &kp R
+                &kp N
+                &kp SPACE
+                &kp T
+                &kp H
+                &kp I
+                &kp S
+                &kp PERIOD
+                &kp Z
+                &kp O
+                &kp N
+                &kp E
+                &kp SPACE
+                &kp EQUAL
+                &kp EQUAL
+                &kp SPACE
+                &kp S
+                &kp T
+                &kp O
+                &kp P
+                &kp PERIOD
+                &kp Z
+                &kp O
+                &kp N
+                &kp E
+                &kp SPACE
+                &kp SPACE
+                &kp T
+                &kp H
+                &kp I
+                &kp S
+                &kp PERIOD
+                &kp N
+                &kp A
+                &kp M
+                &kp E
+                &kp PERIOD
+                &kp E
+                &kp Q
+                &kp U
+                &kp A
+                &kp L
+                &kp S
+                &kp LEFT_PARENTHESIS
+                &kp S
+                &kp T
+                &kp O
+                &kp P
+                &kp PERIOD
+                &kp N
+                &kp A
+                &kp M
+                &kp E
+                &kp RIGHT_PARENTHESIS
+                &kp SEMICOLON
+                &kp ENTER
+                &kp RIGHT_BRACE
+                &kp ENTER
             >;
         };
     };
