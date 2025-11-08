@@ -37,7 +37,7 @@
                         bindings = <
    &kp ESC     &kp N  &trans   &kp I    &kp F9   &kt LALT         &kp F1     &kp F2   &kp F3   &mkp MB1   &mkp MB2   &kp BSPC
    &kp LSHFT   &kp LA(A)  &kp LA(S) &kp LA(D)    &kp M &kp CAPS        &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &trans   &trans
-   &kp LCTRL   &kp N1  &kp LA(X)  &kp N2    &kp V  &trans        &trans     &trans   &trans &trans  &trans   &kp DEL
+   &kp LCTRL   &kp N1  &kp LA(X)  &kp N2    &kp U  &trans        &trans     &trans   &trans &trans  &trans   &kp DEL
                                  &kp LGUI  &trans   &kp SPACE      &kp RET  &trans   &kp PSCRN
                         >;
                 };
