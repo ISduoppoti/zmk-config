@@ -30,14 +30,14 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC | f1  | f2  | f3  | f9 | lalt|   | n   | n   | n   | n   | n   | BSCP  |
+// |  ESC |   N    |   n  | I  | f9 | lalt|        | f1   | f2   | f3   | mouseL   | mouseR   | BSCP  |
 // | SHFT |  LA(A)  | LA(S) | LA(D)|  M  | CAPS|   | LFT | DWN |  UP | RGT | n   | n    |
-// | CTRL |  1  | LA(X)|  2  |mousL|mousR|   | n   | n   | n   | n | n | DEL |
+// | CTRL |  1  | LA(X)|  2  |  U  |  n  |         | n   | n   | n   | n | n | DEL |
 //                    | GUI | n   | SPC |   | ENT | n   | prtsc |
                         bindings = <
-   &kp ESC     &kp F1  &kp F2   &kp F3    &kp F9   &kt LALT         &trans     &trans   &trans     &trans      &trans   &kp BSPC
+   &kp ESC     &kp N  &trans   &kp I    &kp F9   &kt LALT         &kp F1     &kp F2   &kp F3   &mkp MB1   &mkp MB2   &kp BSPC
    &kp LSHFT   &kp LA(A)  &kp LA(S) &kp LA(D)    &kp M &kp CAPS        &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &trans   &trans
-   &kp LCTRL   &kp N1  &kp LA(X)  &kp N2    &mkp MB1 &mkp MB2        &trans     &trans   &trans &trans  &trans   &kp DEL
+   &kp LCTRL   &kp N1  &kp LA(X)  &kp N2    &kp V  &trans        &trans     &trans   &trans &trans  &trans   &kp DEL
                                  &kp LGUI  &trans   &kp SPACE      &kp RET  &trans   &kp PSCRN
                         >;
                 };
